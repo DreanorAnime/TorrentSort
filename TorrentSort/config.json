@@ -1,0 +1,6 @@
+﻿{
+  "RootFolder": "E:\\Anime\\watching",
+  "FileRegex": "\\[.*?\\]",
+  "FolderRegex": "[A-Za-z0-9].*[^-] ",
+  "FileFilter": "*.mkv"
+}
