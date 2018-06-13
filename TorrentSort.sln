@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorrentSort", "TorrentSort\TorrentSort.csproj", "{42D3ACD9-4F04-4711-B844-C82322D5C408}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorrentSortDLL", "TorrentSortDLL\TorrentSortDLL.csproj", "{DC0EA591-D197-477E-BEAC-03575F74DA56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{42D3ACD9-4F04-4711-B844-C82322D5C408}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42D3ACD9-4F04-4711-B844-C82322D5C408}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42D3ACD9-4F04-4711-B844-C82322D5C408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC0EA591-D197-477E-BEAC-03575F74DA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0EA591-D197-477E-BEAC-03575F74DA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0EA591-D197-477E-BEAC-03575F74DA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0EA591-D197-477E-BEAC-03575F74DA56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

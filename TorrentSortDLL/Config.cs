@@ -1,4 +1,4 @@
-﻿namespace TorrentSort
+﻿namespace TorrentSortDLL
 {
     public class Config
     {
