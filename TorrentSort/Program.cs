@@ -1,4 +1,6 @@
-﻿using TorrentSortDLL;
+﻿using System.IO;
+using System.Reflection;
+using TorrentSortDLL;
 
 namespace TorrentSort
 {
@@ -6,7 +8,7 @@ namespace TorrentSort
     {
         public static void Main(string[] args)
         {
-            Sorter sorter = new Sorter();
+            Sorter sorter = new Sorter(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
             sorter.Sort();
         }
     }

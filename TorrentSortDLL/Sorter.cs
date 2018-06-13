@@ -11,9 +11,9 @@ namespace TorrentSortDLL
         private const string MutexName = "TorrentSort";
         private Config config;
 
-        public Sorter()
+        public Sorter(string path)
         {
-            config = JsonConvert.DeserializeObject<Config>(File.ReadAllText(Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "config.json")));
+            config = JsonConvert.DeserializeObject<Config>(File.ReadAllText(Path.Combine(path, "config.json")));
         }
 
         public void Sort()
